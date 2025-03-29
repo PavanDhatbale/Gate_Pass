@@ -25,7 +25,9 @@ const SignIn = () => {
                             <input type="password" placeholder="Enter your password" />
                             </div>
 
+                            <Link to="/Dashboard" style={{ textDecoration: "none" }}>
                             <button type="submit">Sign In</button>
+                            </Link>
                         </form>
                         <p className="register-text">
                             Don't have an account? <Link to="/Register">register</Link>

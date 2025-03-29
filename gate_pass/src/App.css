@@ -142,7 +142,8 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    /* width: 20vw; */
+    width: 25vw;
+    cursor: pointer;
   }
   
   .register-text {
@@ -212,6 +213,7 @@
   background-color: rgb(12, 12, 193);
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 
 

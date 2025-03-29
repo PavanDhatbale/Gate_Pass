@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import '../App.css'
-import { Link } from 'react-router-dom'
 const Register = () => {
   return (
     <>
@@ -25,9 +24,8 @@ const Register = () => {
                 <label htmlFor="Designation">Designation :</label>
                 <input type="text" id="Designation" />
 
-                <Link to="/Dashboard" style={{ textDecoration: "none"}}>
                 <button id="Reg-Btn" >Register</button>
-                </Link>
+                
             </div>
         </form>
       </div>
