@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    ::selection{
+      background-color: black;
+      color:white;
+    }
+}
+
+/* NAVBAR COMPONENT */
+.Nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 30px;
+    width: 100vw;
+    border-bottom: 3px solid blue;
+}
+.Nav_container img{
+    height: 110px;
+}
+.Nav_Logo img{
+    height: 60px;
+}
+
+/* LOGON PAGE */ 
+.Login_container{
+    width: 100%;
+    overflow: hidden;
+}
+.Nav_text{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    
+}
+.blue_text{
+    color:rgb(81, 81, 234);
+}
+
+.SignIn{
+    height: calc(100vh - 120px);
+    display: flex;
+    /* background-color: yellow; */
+}
+.left_side h1{
+    margin-bottom: 20px;
+}
+.left_side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 100%;
+    /* background-color: red; */
+    text-align: center;
+    border-right: 3px solid blue;
+}
+.right_side{
+    width: 50vw;
+    height: 100%;
+    /* background-color:orange; */
+    background-image: url('/KBT_COLLEGE.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.SignIn_container{
+    width: 30vw;
+    background-color: black;
+    color:white;
+}
+.login-container {
+    width: 30vw;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 4px 6px rgba(110, 89, 89, 0.705);
+
+    /* background-color: rgb(228, 226, 226); */
+    background-color: transparent;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    gap:18px;
+    flex-direction: column;
+    justify-content: center;
+  }
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 1px;
+    background: black;
+    margin: 0 5px;
+  }
+  .separator p {
+    font-size: 20px;
+    font-weight: 600;
+    /* background-color:rgb(228, 226, 226) ; */
+    padding: 0px 3px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  
+  .login-form input {
+    padding: 8px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    width: 18vw;
+    outline: none;
+    border-radius: 10px;
+  }
+  form label{
+    font-size: 20px;
+  }
+  .gap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+  }
+  
+  .login-form button {
+    padding: 8px 10px;
+    background: rgb(10, 10, 142);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    /* width: 20vw; */
+  }
+  
+  .register-text {
+    margin-top: 10px;
+  }
+  
+  .register-text a {
+    color: blue;
+    text-decoration: none;
+  }
+  .Google_Btn{
+    padding:0px 10px;
+    border-radius: 15px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .Google_Btn img{
+    height: 40px;
+  }
+  
+  .Register{
+    height: 70vh;
+    width: 60vw;
+    /* background-color: red; */
+    /* background-color: rgba(247, 241, 241, 0.683); */
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(110, 89, 89, 0.705);
+
+
+  }
+  .Register_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:calc(100vh - 130px);
+  }
+  
+  .Register_form h1{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+  }
+  .Register_form label{
+     font-size: 25px;
+     margin:10px;
+  }
+  .Register_form input{
+    width: 30%;
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin: 20px 8px;
+    font-size: 18px;
+  }
+#Reg-Btn{
+  display: block;
+  margin-top: 50px;
+  padding: 5px 10px;
+  font-size: 22px;
+  width: 30%;
+  border-radius: 10px;
+  margin:50px auto;
+  background-color: rgb(12, 12, 193);
+  color: white;
+  text-decoration: none;
+}
+
+
+
+/* ======== Global Styles ======== */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* ======== Navbar Styles ======== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 2px solid #1E3A8A;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar img {
+  height: 60px;
+}
+
+.navbar .right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar .logout-button {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  outline: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.navbar .logout-button:hover {
+  color: gray;
+}
+
+/* ======== Sidebar Styles ======== */
+.sidebar {
+  width: 250px;
+  height: calc(100vh - 85px);
+  background-color: #e5e7eb;
+  border-right: 2px solid #1E3A8A;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar li:hover {
+  background-color: #d1d5db;
+}
+
+.sidebar li.active {
+  background-color: #9ca3af;
+}
+
+/* ======== Dashboard Styles ======== */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 85px);
+  /* overflow: hidden; */
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.content-area {
+  flex-grow: 1;
+  padding: 20px;
+  border-left: 2px solid #1E3A8A;
+  background-color: white;
+}
+
+
+
+.gatepass-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 5px;
+  height: 85vh;
+}
+
+.gatepass-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  border: 2px solid black;
+  width: 850px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gatepass-title {
+  text-align: center;
+  font-size: 30px;  /* Adjusted for accuracy */
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+  
+}
+
+.gatepass-subtitle {
+  text-align: center;
+  font-size: 26px;  /* Slightly larger for emphasis */
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+/* ======== Form Styles ======== */
+.gatepass-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.input-group label {
+  font-size: 20px;  /* Adjusted for better readability */
+  font-weight: bold;
+}
+
+.underline-input {
+  border: none;
+  border-bottom: 2px solid black;
+  min-width: 250px;
+  font-size: 18px;  /* Matching the UI */
+  padding: 5px;
+  outline: none;
+  background-color: transparent;
+}
+
+.small-input {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 100px;
+  font-size: 18px; /* Slightly bigger for better visibility */
+  padding: 5px;
+  outline: none;
+  background-color: transparent;
+}
+
+.full-width {
+  width: 500px;
+}
+
+/* ======== Submit Button ======== */
+.submit-btn {
+  background-color: #1E3A8A;
+  color: white;
+  font-size: 18px;  /* Adjusted to match button text */
+  padding: 12px 15px;
+  width: 130px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background-color: #162b6f;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 10px 20px;
+  border-bottom: 2px solid blue;
+}
+
+.logo {
+  height: 60px; /* Adjust as needed */
+}
+
+/* Aligning XYZ Staff and Logout Button */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Adjust spacing between text & button */
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.logout-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Dashboard Layout */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+/* Content Wrapper */
+.dashboard-content-wrapper {
+  display: flex;
+  flex-grow: 1;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background: #f0f0f0;
+  padding-top: 10px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: #d9d9d9;
+  font-size: 16px;
+  text-align: left;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-weight:600;
+}
+
+.menu-item:hover {
+  background: #c0c0c0;
+}
+
+/* .active {
+  background: #b0b0b0;
+  font-weight: bold;
+} */
+
+/* Content Area */
+.dashboard-content {
+  flex-grow: 1;
+  padding: 20px;
+  border-left: 2px solid blue;
+  height: 90vh;
+  overflow: auto;
+  background: #ffffff;
+}
+.table-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.status-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.status-table th, .status-table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.status-table th {
+  background-color: #f8f8f8;
+}
