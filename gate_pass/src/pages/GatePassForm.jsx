@@ -17,11 +17,11 @@ const GatePass = () => {
             </div>
             <div className="input-group">
               <label>Time In :</label>
-              <input type="text" className="small-input" />
+              <input type="date" className="small-input date" />
             </div>
             <div className="input-group">
               <label>Time Out :</label>
-              <input type="text" className="small-input" />
+              <input type="date" className="small-input date" />
             </div>
           </div>
 
