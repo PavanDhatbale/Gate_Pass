@@ -1,6 +1,3 @@
-
-
-
 import React, { useState } from "react";
 import Navbar2 from "../components/Navbar2";
 import Sidebar from "../components/Sidebar";
@@ -67,3 +64,6 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
+
+

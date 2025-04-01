@@ -540,3 +540,59 @@ body, html {
   text-align: center;
   font-weight: bold;
 }
+
+/* HodDashboard */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.dashboard-content {
+  display: flex;
+  flex: 1;
+}
+
+.menu-item.active {
+  background-color: #888;
+  font-weight: bold;
+} 
+
+.content-area {
+  flex: 1;
+  padding: 20px;
+}
+
+.request-list {
+  margin-top: 10px;
+} 
+
+.request-table_new {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.request-table_new th, .request-table_new td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.approve-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.reject-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}

@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -28,3 +26,5 @@ const Sidebar = ({ setActiveTab }) => {
 };
 
 export default Sidebar;
+
+
